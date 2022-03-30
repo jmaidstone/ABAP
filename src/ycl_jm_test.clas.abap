@@ -4,7 +4,7 @@ CLASS ycl_jm_test DEFINITION
   CREATE PUBLIC .
 
   PUBLIC SECTION.
-
+methods do_something.
     INTERFACES if_oo_adt_classrun .
   PROTECTED SECTION.
   PRIVATE SECTION.
@@ -20,4 +20,8 @@ CLASS ycl_jm_test IMPLEMENTATION.
 
   out->write( 'Hello World' ).
   ENDMETHOD.
+  METHOD do_something.
+
+  ENDMETHOD.
+
 ENDCLASS.
